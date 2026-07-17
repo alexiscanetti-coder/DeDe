@@ -1,8 +1,18 @@
-void main() {
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Warrior w = new Warrior();
+        Mage m = new Mage();
 
-    IO.println(String.format("Hello and welcome!"));
+        System.out.print(w.heroName+" - ");
+        System.out.print(w.maxHealth+" - ");
+        System.out.print(w.attackStrength);
 
-    for (int i = 1; i <= 5; i++) {
-        IO.println("i = " + i);
-    }
+        System.out.println("");
+
+        System.out.print(m.heroName+" - ");
+        System.out.print(m.maxHealth+" - ");
+        System.out.print(m.attackStrength);
+        }
 }
