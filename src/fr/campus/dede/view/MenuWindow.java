@@ -24,6 +24,7 @@ public class MenuWindow extends JFrame{
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        createCharacter();
         initMenu();
 
         this.setVisible(true);
@@ -76,7 +77,7 @@ public class MenuWindow extends JFrame{
         add(mainPanel);
     }
 
-    /*private String chooseCharacterType() {
+    private String chooseCharacterType() {
         String[] options = {"WIZARD", "WARRIOR"};
         int choice = JOptionPane.showOptionDialog(this,
                 "Choose a type :",
@@ -116,7 +117,7 @@ public class MenuWindow extends JFrame{
 
     }
 
-    private void displayCharacter() {
+    /*private void displayCharacter() {
         JOptionPane.showMessageDialog(this,
                 characters.toString(),
                 "Character sheet",

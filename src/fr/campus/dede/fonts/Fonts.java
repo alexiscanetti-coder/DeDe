@@ -7,6 +7,10 @@ public class Fonts {
         return loadFont("AGTime.ttf", size);
     }
 
+    public static Font getUnderTitleFont(float size) {
+        return loadFont("Cinzel-Bold.otf", size);
+    }
+
     public static Font getButtonFont(float size) {
         return loadFont("Cinzel-Regular.otf", size);
     }
