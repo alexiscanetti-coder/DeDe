@@ -1,0 +1,41 @@
+.ff-box {
+    -fx-background-color: linear-gradient(to top, #611200, #9c1203);
+    -fx-background-radius: 20;
+    -fx-border-color: white;
+    -fx-border-width: 6;
+    -fx-border-radius: 20;
+}
+
+.ff-panel {
+    -fx-background-color: linear-gradient(to top, #611200, #9c1203);
+}
+
+.title-label {
+    -fx-text-fill: white;
+    -fx-font-family: "Press Start 2P";
+    -fx-font-size: 15px;
+}
+
+.hero-scroll, .hero-scroll .viewport {
+    -fx-background-color: transparent;
+}
+
+.hero-scroll .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.hero-button {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.hero-button:hover {
+    -fx-text-fill: #ffdc78;
+}
+
+.hero-button-selected {
+    -fx-text-fill: #ffdc78;
+    -fx-background-color: rgba(255, 255, 255, 0.15);
+    -fx-background-radius: 8;
+}
