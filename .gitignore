@@ -28,3 +28,19 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+.iml
+.idea
+out/
+
+/target
+.gradle
+/build
+
+thumbs.db
+DS.STORE
+.exe
+.jar
+.ear
+
+.env
